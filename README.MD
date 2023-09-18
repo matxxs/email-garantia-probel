@@ -13,13 +13,13 @@ O marketing sugeriu a criação de três index, com informações diferentes. A 
 - Caso seja um envio de email sem botões, a forma mais fácil de realizar este projeto é criar uma formatação da imagem no Word para o index ou formato de texto, e depois inseri-lo na plataforma de envio.
 
 
-
 Clone pro o projeto
 ```
 https://github.com/matxxs/email-garantia-probel.git
 ```
 ## Resultado Final do projeto
 
+<<<<<<< HEAD
 <div style="display: flex; gap: 20px; "> 
     <img src="img/aceite.jpeg" alt="gif da tela do projeto the last of us em execução ">
 </div>
