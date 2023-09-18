@@ -8,9 +8,8 @@
 
  O marketing sugeriu a criação de três index, com informações diferentes. A intenção é que os index sejam inseridos no email, a fim de torná-lo mais profissional e prático para o colaborador, proporcionando uma leitura mais fácil para o cliente.
 
-```
+
 OBS: Eu separarei em vários arquivos para facilitar a compreensão do código, mas, como se trata de envio por email, deve ser enviado apenas um arquivo por mensagem.
-```
 
 
 Clone pro o projeto
@@ -20,8 +19,8 @@ https://github.com/matxxs/email-garantia-probel.git
 ## Resultado Final do projeto
 
 <div style="display: flex; gap: 20px"> 
-    <img style="height: 40%; width: 50%;" src="img/aceite.jpeg" alt="gif da tela do projeto the last of us em execução ">
-    <img style="height: 40%; width: 50%;" src="img/suporte.jpeg" alt="gif da tela do projeto the last of us em execução ">
+    <img style="height: 40%; width: 45%;" src="img/aceite.jpeg" alt="gif da tela do projeto the last of us em execução ">
+    <img style="height: 40%; width: 45%;" src="img/suporte.jpeg" alt="gif da tela do projeto the last of us em execução ">
 </div>
 
 
