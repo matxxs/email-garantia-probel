@@ -19,9 +19,8 @@ https://github.com/matxxs/email-garantia-probel.git
 ```
 ## Resultado Final do projeto
 
-<<<<<<< HEAD
-<div style="display: flex; gap: 20px; "> 
-    <img src="img/aceite.jpeg" alt="gif da tela do projeto the last of us em execução ">
+<div> 
+    <img style="height: 900px"  src="img/aceite.jpeg" alt="gif da tela do projeto the last of us em execução ">
 </div>
 
 
