@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'Gotham Book' ;
+    src: url(../font/GothamBook.ttf) 
+}
+
+@font-face {
+    font-family: 'Gotham Bold' ;
+    src: url(../font/GothamBold.ttf) 
+}
+
+@font-face {
+    font-family: 'Gotham Medium' ;
+    src: url(../font/GothamMedium.ttf) 
+}
+
+main {
+    margin: 0 auto;
+    max-width: 612px;
+    line-height: 25px;
+    font-size: 12px;  
+    font-family: 'Gotham Book';  
+}
+
+/*--------------------------*/
+/*----- CONTEUDO DO BG -----*/
+/*--------------------------*/
+
+.bg {
+    background-image: url('../img/BG.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 360px;
+    position: relative;
+    display: flex;
+}
+
+.bg .background-color{
+    position: absolute;
+    background-image: linear-gradient(to left, #96825C, #4A3817, #CAAF7C, #D2A041);
+    height: 50px; 
+    width: 100%;
+    opacity: 0.5;
+}
+
+.bg .informacao{
+    display: flex;
+    align-items: end; 
+}
+
+.bg .informacao .descricao {
+    min-height: 70%;
+    max-width: 50%;
+    padding: 0.5rem 1rem;  
+    text-align: justify;
+    background-color:#183D84;   
+    color: #FFFFFF;  
+    opacity: 0.83; 
+}
+
+.bg .informacao .descricao .cabecalho {
+    font-family: 'Gotham Medium';
+    letter-spacing: -0.8px; 
+}
+
+.bg .informacao .descricao h1{
+    font-family: 'Gotham Bold'; 
+    font-size: 25px;
+    color: #CAAF7C; 
+    margin-bottom: 0.5rem;
+}
+
+.bg .imagem-mulher {
+    position: absolute;
+    right: 0;
+}
+
+.bg .imagem-mulher img{    
+    padding-top: 1rem;
+    height: 400px;
+}
+
+/*----------------------------------*/
+/*----- PRIMEIRO-TEXTO-CENTRAL -----*/
+/*----------------------------------*/
+
+.primeiro-texto-central {
+    margin-top: 40px;
+    display: flex;
+}
+
+.primeiro-texto-central .informacao {
+    padding: 2rem 2rem 3rem;
+    text-align: justify; 
+}
+
+.primeiro-texto-central .informacao .cabecalho {
+    color:#125B98;
+    font-family: 'Gotham Bold';
+    font-size: 16px;
+}
+
+.primeiro-texto-central .descricao-esquerda{
+    background-color:#ECECEC;
+}
+
+.primeiro-texto-central .descricao-direita {
+    background-color: #104778;
+    background-image: linear-gradient(to top, #112b5e, #173a7d, #183d84);
+    color: #FFFFFF;
+    opacity: 90%;
+}
+
+/*----------------------------------*/
+/*----- SEGUNDO-TEXTO-CENTRAL ------*/
+/*----------------------------------*/
+
+.segundo-texto-central {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+/*-------------------------------------*/
+/*----- INFORMAÇÃO DE VALORIZAÇÃO -----*/
+/*-------------------------------------*/
+
+.segundo-texto-central .informacao-de-valorizacao {
+    text-align: center;
+    margin: 20px 40px;
+}
+
+.segundo-texto-central .informacao-de-valorizacao .cabecalho {
+    display: flex;
+    justify-content: center;
+    margin: 20px 40px; 
+}
+
+.segundo-texto-central .informacao-de-valorizacao .cabecalho h2 {
+    background-color: #AE0F0A;
+    color: #FFFFFF;
+    width: 250px;
+    padding: 0.8rem;
+    font-size: 26px;
+    letter-spacing: 1px; 
+    border-radius: 20px;  
+    text-shadow: 10px 5px 10px rgba(0, 0, 0, 0.432);   
+}
+
+.segundo-texto-central .informacao-de-valorizacao p {
+    margin-bottom: 2rem;
+}
+
+/*-------------------------------------*/
+/*----- CONTEUDO DO AGRADECIMENTO -----*/
+/*-------------------------------------*/
+
+.segundo-texto-central .informacao-de-agradecimneto {
+    display: flex;
+    justify-content: right;
+    background-image: linear-gradient(to top, #830001 20%, #B30001);
+    color: #FFFFFF;   
+    margin-top: 20px;
+}
+
+.segundo-texto-central .informacao-de-agradecimneto .descricao {
+    max-width: 65%;
+    text-align: right;
+    padding: 1.5rem 2rem;
+}
+
+.imagem-certo {
+    position: absolute;
+    bottom: 0;
+    margin-left: 1rem;
+    max-height: 191px;
+}
+
+/*------------------------------*/
+/*----- CONTEUDO DO RODAPE -----*/
+/*------------------------------*/
+
+.rodape {
+    margin-top: 2rem; 
+    margin-bottom: 1px;
+}
+
+.rodape .assinatura, .logo {
+    margin: 0 auto;
+    text-align: center;   
+}
+
+.rodape .assinatura {
+    margin-bottom: 2em;
+}
+
+.rodape .logo .reclame {
+    height: 60px;
+}
+
+.rodape .logo .probel {
+    margin-right: 2em;
+    height: 60px;
+}
+
+.rodape .logo .pelmex {
+    height: 70px;
+}
