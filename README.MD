@@ -1,6 +1,6 @@
 <div style="display: flex; gap: 20px;"> 
-    <img align="center" alt="Logo"  src="img/probel.png">
-    <img align="center" alt="Logo"  src="img/pelmex.png">
+    <img align="center" alt="Logo"  src="./src/img/probel.png">
+    <img align="center" alt="Logo"  src="./src/img/pelmex.png">
 </div>
 
 
@@ -20,8 +20,8 @@ https://github.com/matxxs/email-garantia-probel.git
 ## Resultado Final do projeto
 
 <div style="display: flex; gap: 20px;">
-    <img style="height: 1000px"  src="img/aceite.jpeg" alt="gif da tela do projeto the last of us em execução ">
-    <img style="height: 1000px"  src="img/suporte.jpeg" alt="gif da tela do projeto the last of us em execução ">
+    <img style="height: 1000px"  src="./src/img/aceite.jpeg" alt="gif da tela do projeto the last of us em execução ">
+    <img style="height: 1000px"  src="./src/img/suporte.jpeg" alt="gif da tela do projeto the last of us em execução ">
 </div>
 
 
